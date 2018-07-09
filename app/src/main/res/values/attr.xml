@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountTimeView">
+        <attr name="radius" format="dimension"/>
+        <attr name="bordWidth" format="dimension"/>
+        <attr name="progressWidth" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="ringColor" format="color"/>
+        <attr name="ringBgColor" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="progress" format="integer"/>
+        <attr name="total_progress" format="integer"/>
+    </declare-styleable>
+</resources>

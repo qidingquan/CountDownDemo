@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:background="@mipmap/bg_answer_countdown">
+        <TextView
+            android:id="@+id/tv_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:text="3"
+            android:textColor="@color/black_333333"
+            android:textSize="75sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

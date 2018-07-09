@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.spring.countdowndemo.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startDialogCountDown"
+        android:text="开启弹框倒计时"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startCountDown"
+        android:text="开启界面倒计时"/>
+    <com.spring.countdowndemo.CountTimeView
+        android:id="@+id/view_count"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:text_size="30sp"
+        app:text_color="@color/black_333333"
+        app:progressWidth="10dp"
+        app:bordWidth="10dp"
+        app:ringBgColor="@color/colorPrimary"
+        app:ringColor="@color/colorAccent"
+        app:progress="10"
+        app:total_progress="10"/>
+</LinearLayout>
